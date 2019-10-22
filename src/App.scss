@@ -1,0 +1,16 @@
+.lvp {
+    display: flex;
+  
+    div:first-child {
+        color: #ccc;
+        margin-right: 5px;
+
+        &:after {
+            content: ':'
+        }
+    }
+
+    div:nth-child(2) {
+        
+    }
+}
